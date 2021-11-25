@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 body{
     background-color: #00000079;
     margin: 0;
@@ -9,27 +11,40 @@ body{
 }
   .middle{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 20px;
+    min-width: 315px;
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 25px;
+    background: rgb(39,254,197);
+    background: linear-gradient(351deg, rgba(39,254,197, 0.100) 0%, rgba(145,199,253, 0.100) 50%, rgba(249, 173, 198, 0.100) 120%);
   }
   .btn{
     background: none;
     border: 1px solid rgb(255, 255, 255);
-    font-family: "montserrat",sans-serif;
+    font-family: consolas;
     text-transform: uppercase;
     padding: 12px 20px;
-    min-width: 200px;
+    min-width: 315px;
     margin: 10px;
     cursor: pointer;
     transition: color 0.4s linear;
     position: relative;
     color:rgb(255, 255, 255);
-    transition: 0.5s;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background:rgba(255, 255, 255, 0.100)
   }
   .btn:hover{
     color: rgb(0, 0, 0);
+    border-radius: 25px;
   }
   .btn::before{
     content: "";
@@ -42,10 +57,19 @@ body{
     z-index: -1;
     transition: transform 0.5s;
     transform-origin: 0 0;
+    border-radius: 25px;
   }
   .btn1::before{
     transform: scaleX(0);
+    border-radius: 25px;
   }
   .btn1:hover::before{
     transform: scaleX(1);
+    border-radius: 25px;
   }
+
+#logo
+{
+  border-radius: 7px;
+  margin: 20px;
+}
