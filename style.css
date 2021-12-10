@@ -16,9 +16,10 @@ body{
     background: rgb(39,254,197);
     background: linear-gradient(351deg, rgba(39,254,197, 0.1) 0%, rgba(145,199,253, 0.1) 50%, rgba(249, 173, 198, 0.1) 120%);
     backdrop-filter: blur(15px);
+    height: 65px;
 }
 .nav-item{
-    padding: 0px 5px;
+    height: px;
 }
 .nav-btn{
     padding: 12px 35px;
